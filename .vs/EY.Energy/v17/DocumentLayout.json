@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E522A16-A947-4962-BF46-BCE77E678795}|EY.Energy.API\\EY.Energy.API.csproj|c:\\users\\vz325ny\\onedrive - ey\\desktop\\new folder\\ey.energy\\ey.energy.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E522A16-A947-4962-BF46-BCE77E678795}|EY.Energy.API\\EY.Energy.API.csproj|solutionrelative:ey.energy.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE38625E-AE6B-43D5-B45B-7C7D39C6B378}|EY.Energy.Application\\EY.Energy.Application.csproj|c:\\users\\vz325ny\\onedrive - ey\\desktop\\new folder\\ey.energy\\ey.energy.application\\emailconfiguration\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE38625E-AE6B-43D5-B45B-7C7D39C6B378}|EY.Energy.Application\\EY.Energy.Application.csproj|solutionrelative:ey.energy.application\\emailconfiguration\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E522A16-A947-4962-BF46-BCE77E678795}|EY.Energy.API\\EY.Energy.API.csproj|c:\\users\\vz325ny\\onedrive - ey\\desktop\\new folder\\ey.energy\\ey.energy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E522A16-A947-4962-BF46-BCE77E678795}|EY.Energy.API\\EY.Energy.API.csproj|solutionrelative:ey.energy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E522A16-A947-4962-BF46-BCE77E678795}|EY.Energy.API\\EY.Energy.API.csproj|c:\\users\\vz325ny\\onedrive - ey\\desktop\\new folder\\ey.energy\\ey.energy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E522A16-A947-4962-BF46-BCE77E678795}|EY.Energy.API\\EY.Energy.API.csproj|solutionrelative:ey.energy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE38625E-AE6B-43D5-B45B-7C7D39C6B378}|EY.Energy.Application\\EY.Energy.Application.csproj|c:\\users\\vz325ny\\onedrive - ey\\desktop\\new folder\\ey.energy\\ey.energy.application\\emailconfiguration\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE38625E-AE6B-43D5-B45B-7C7D39C6B378}|EY.Energy.Application\\EY.Energy.Application.csproj|solutionrelative:ey.energy.application\\emailconfiguration\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE38625E-AE6B-43D5-B45B-7C7D39C6B378}|EY.Energy.Application\\EY.Energy.Application.csproj|c:\\users\\vz325ny\\onedrive - ey\\desktop\\new folder\\ey.energy\\ey.energy.application\\services\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE38625E-AE6B-43D5-B45B-7C7D39C6B378}|EY.Energy.Application\\EY.Energy.Application.csproj|solutionrelative:ey.energy.application\\services\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE38625E-AE6B-43D5-B45B-7C7D39C6B378}|EY.Energy.Application\\EY.Energy.Application.csproj|c:\\users\\vz325ny\\onedrive - ey\\desktop\\new folder\\ey.energy\\ey.energy.application\\dto\\assignrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE38625E-AE6B-43D5-B45B-7C7D39C6B378}|EY.Energy.Application\\EY.Energy.Application.csproj|solutionrelative:ey.energy.application\\dto\\assignrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE38625E-AE6B-43D5-B45B-7C7D39C6B378}|EY.Energy.Application\\EY.Energy.Application.csproj|c:\\users\\vz325ny\\onedrive - ey\\desktop\\new folder\\ey.energy\\ey.energy.application\\dto\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE38625E-AE6B-43D5-B45B-7C7D39C6B378}|EY.Energy.Application\\EY.Energy.Application.csproj|solutionrelative:ey.energy.application\\dto\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE38625E-AE6B-43D5-B45B-7C7D39C6B378}|EY.Energy.Application\\EY.Energy.Application.csproj|c:\\users\\vz325ny\\onedrive - ey\\desktop\\new folder\\ey.energy\\ey.energy.application\\dto\\createusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE38625E-AE6B-43D5-B45B-7C7D39C6B378}|EY.Energy.Application\\EY.Energy.Application.csproj|solutionrelative:ey.energy.application\\dto\\createusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E19E16-668C-43EE-A1D7-75263CB759E9}|EY.Energy.Infrastructure\\EY.Energy.Infrastructure.csproj|c:\\users\\vz325ny\\onedrive - ey\\desktop\\new folder\\ey.energy\\ey.energy.infrastructure\\configuration\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E19E16-668C-43EE-A1D7-75263CB759E9}|EY.Energy.Infrastructure\\EY.Energy.Infrastructure.csproj|solutionrelative:ey.energy.infrastructure\\configuration\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E19E16-668C-43EE-A1D7-75263CB759E9}|EY.Energy.Infrastructure\\EY.Energy.Infrastructure.csproj|c:\\users\\vz325ny\\onedrive - ey\\desktop\\new folder\\ey.energy\\ey.energy.infrastructure\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E19E16-668C-43EE-A1D7-75263CB759E9}|EY.Energy.Infrastructure\\EY.Energy.Infrastructure.csproj|solutionrelative:ey.energy.infrastructure\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E19E16-668C-43EE-A1D7-75263CB759E9}|EY.Energy.Infrastructure\\EY.Energy.Infrastructure.csproj|c:\\users\\vz325ny\\onedrive - ey\\desktop\\new folder\\ey.energy\\ey.energy.infrastructure\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E19E16-668C-43EE-A1D7-75263CB759E9}|EY.Energy.Infrastructure\\EY.Energy.Infrastructure.csproj|solutionrelative:ey.energy.infrastructure\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E19E16-668C-43EE-A1D7-75263CB759E9}|EY.Energy.Infrastructure\\EY.Energy.Infrastructure.csproj|c:\\users\\vz325ny\\onedrive - ey\\desktop\\new folder\\ey.energy\\ey.energy.infrastructure\\configuration\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E19E16-668C-43EE-A1D7-75263CB759E9}|EY.Energy.Infrastructure\\EY.Energy.Infrastructure.csproj|solutionrelative:ey.energy.infrastructure\\configuration\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Application\\EmailConfiguration\\IEmailService.cs",
+              "RelativeDocumentMoniker": "EY.Energy.Application\\EmailConfiguration\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Application\\EmailConfiguration\\IEmailService.cs",
+              "RelativeToolTip": "EY.Energy.Application\\EmailConfiguration\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T10:45:30.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Application\\EmailConfiguration\\EmailService.cs",
+              "RelativeDocumentMoniker": "EY.Energy.Application\\EmailConfiguration\\EmailService.cs",
+              "ToolTip": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Application\\EmailConfiguration\\EmailService.cs",
+              "RelativeToolTip": "EY.Energy.Application\\EmailConfiguration\\EmailService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T10:43:26.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssignRoleModel.cs",
+              "DocumentMoniker": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Application\\DTO\\AssignRoleModel.cs",
+              "RelativeDocumentMoniker": "EY.Energy.Application\\DTO\\AssignRoleModel.cs",
+              "ToolTip": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Application\\DTO\\AssignRoleModel.cs",
+              "RelativeToolTip": "EY.Energy.Application\\DTO\\AssignRoleModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:23:33.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.API\\Program.cs",
+              "RelativeDocumentMoniker": "EY.Energy.API\\Program.cs",
+              "ToolTip": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.API\\Program.cs",
+              "RelativeToolTip": "EY.Energy.API\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:18:30.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.API\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "EY.Energy.API\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.API\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "EY.Energy.API\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:37:45.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthenticationServices.cs",
+              "DocumentMoniker": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Application\\Services\\AuthenticationServices.cs",
+              "RelativeDocumentMoniker": "EY.Energy.Application\\Services\\AuthenticationServices.cs",
+              "ToolTip": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Application\\Services\\AuthenticationServices.cs",
+              "RelativeToolTip": "EY.Energy.Application\\Services\\AuthenticationServices.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:34:01.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Infrastructure\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "EY.Energy.Infrastructure\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Infrastructure\\Entity\\User.cs",
+              "RelativeToolTip": "EY.Energy.Infrastructure\\Entity\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwBQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:34:43.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.API\\appsettings.json",
+              "RelativeDocumentMoniker": "EY.Energy.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.API\\appsettings.json",
+              "RelativeToolTip": "EY.Energy.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-14T08:51:56.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Application\\DTO\\LoginModel.cs",
+              "RelativeDocumentMoniker": "EY.Energy.Application\\DTO\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Application\\DTO\\LoginModel.cs",
+              "RelativeToolTip": "EY.Energy.Application\\DTO\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:24:31.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateUserModel.cs",
+              "DocumentMoniker": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Application\\DTO\\CreateUserModel.cs",
+              "RelativeDocumentMoniker": "EY.Energy.Application\\DTO\\CreateUserModel.cs",
+              "ToolTip": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Application\\DTO\\CreateUserModel.cs",
+              "RelativeToolTip": "EY.Energy.Application\\DTO\\CreateUserModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAgwB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:26:51.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Infrastructure\\Entity\\Role.cs",
+              "RelativeDocumentMoniker": "EY.Energy.Infrastructure\\Entity\\Role.cs",
+              "ToolTip": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Infrastructure\\Entity\\Role.cs",
+              "RelativeToolTip": "EY.Energy.Infrastructure\\Entity\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T09:06:48.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MongoDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Infrastructure\\Configuration\\MongoDBContext.cs",
+              "RelativeDocumentMoniker": "EY.Energy.Infrastructure\\Configuration\\MongoDBContext.cs",
+              "ToolTip": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Infrastructure\\Configuration\\MongoDBContext.cs",
+              "RelativeToolTip": "EY.Energy.Infrastructure\\Configuration\\MongoDBContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:19:17.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MongoDbSettings.cs",
+              "DocumentMoniker": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Infrastructure\\Configuration\\MongoDbSettings.cs",
+              "RelativeDocumentMoniker": "EY.Energy.Infrastructure\\Configuration\\MongoDbSettings.cs",
+              "ToolTip": "C:\\Users\\VZ325NY\\OneDrive - EY\\Desktop\\New folder\\EY.Energy\\EY.Energy.Infrastructure\\Configuration\\MongoDbSettings.cs",
+              "RelativeToolTip": "EY.Energy.Infrastructure\\Configuration\\MongoDbSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:17:06.957Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
