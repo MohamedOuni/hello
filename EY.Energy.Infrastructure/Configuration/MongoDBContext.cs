@@ -1,4 +1,5 @@
 ﻿using EY.Energy.Entity;
+using Microsoft.EntityFrameworkCore;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
@@ -28,7 +29,6 @@ namespace EY.Energy.Infrastructure.Configuration
         public IMongoCollection<SubQuestion> SubQuestions => _database.GetCollection<SubQuestion>("SubQuestions");
         public IMongoCollection<User> Users => _database.GetCollection<User>("Users");
 
-       
-
+    
     }
 }

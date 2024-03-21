@@ -7,6 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using EY.Energy.Application.Services;
 using EY.Energy.Application.EmailConfiguration;
+using System.IdentityModel.Tokens.Jwt;
+using System.Text;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.DataProtection;
 
 namespace EY.Energy.API.Controllers
 {
@@ -23,37 +27,45 @@ namespace EY.Energy.API.Controllers
             _emailService = emailService;
         }
 
+
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
-            var user = await _userService.Authenticate(model.Username, model.Password);
-
-            if (user == null)
-                return Unauthorized();
-
-            var claims = new List<Claim>
-    {
-        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-        new Claim(ClaimTypes.Email, user.Email),
-        new Claim(ClaimTypes.Name , user.Username ),
-        new Claim (ClaimTypes.Role, user.role.ToString()!)
-    };
-
-
-
-            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-
-            var authProperties = new AuthenticationProperties
+            if (ModelState.IsValid)
             {
-                IsPersistent = model.RememberMe,
-                ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(30)
-            };
+                var user = await _userService.Authenticate(model.Username, model.Password);
 
-            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                new ClaimsPrincipal(claimsIdentity), authProperties);
+                if (user == null)
+                {
+                    return Unauthorized("User not found");
+                }
 
-            return Ok(claims);
+                var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Name, user.Username),
+            new Claim(ClaimTypes.Email, user.Email),
+            new Claim(ClaimTypes.Role, user.role.ToString()!)
+        };
+
+                var claimsIdentity = new ClaimsIdentity(
+                    claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+                var authProperties = new AuthenticationProperties
+                {
+                    IsPersistent = model.RememberMe,
+                    ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(30)
+                };
+
+                await HttpContext.SignInAsync(
+           CookieAuthenticationDefaults.AuthenticationScheme,
+           new ClaimsPrincipal(claimsIdentity),
+           authProperties);
+
+                return Ok(claims);
+            }
+            else { return BadRequest(); }
         }
+
 
         [Authorize(Roles = "Manager,Admin")]
         [HttpPost("create-user")]
@@ -72,7 +84,7 @@ namespace EY.Energy.API.Controllers
                     role = null
                 };
 
-                if (!newUser.Email.EndsWith("@tn.ey.com"))
+                if (!newUser.Email.EndsWith("@gmail.com"))
                 {
                     return BadRequest(new { message = "Emails for Consultant and Manager roles must end with @tn.ey.com" });
                 }
@@ -81,7 +93,7 @@ namespace EY.Energy.API.Controllers
 
                 var emailSubject = "Your new account has been created successfully";
                 var emailMessage = $"Hi {newUser.FirstName},\n\nYour account has been successfully created.\n\nHere is your login information:\n\nUsername: {newUser.Username}\nPassword: {newUser.Password}\n\nBest regards,\nEY";
-              
+
                 await _emailService.SendEmailAsync(newUser.Email, emailSubject, emailMessage);
 
                 return Ok(new { message = "The user account has been created successfully." });
@@ -96,7 +108,7 @@ namespace EY.Energy.API.Controllers
 
 
 
-        [Authorize(Roles = "Admin,Manager")]
+        [Authorize(Roles = "Admin")]
         [HttpPost("assign-role")]
         public async Task<IActionResult> AssignRole([FromBody] AssignRoleModel model)
         {
@@ -118,6 +130,29 @@ namespace EY.Energy.API.Controllers
                 return BadRequest(new { message = "The specified role is invalid." });
             }
         }
+
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet("allusers")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            try
+            {
+                var currentUser = HttpContext.User.Identity!.Name; 
+                if (string.IsNullOrEmpty(currentUser))
+                {
+                    return Unauthorized("User not authenticated");
+                }
+
+                var users = await _userService.GetAllUsersExcludingCurrentUser(currentUser);
+                return Ok(users);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
 
         [Authorize]
         [HttpPost("logout")]

@@ -118,3 +118,11 @@ C:\Users\ounim\Desktop\Nouveau dossier (4)\EYEnergy-main\EY.Energy.API\obj\Debug
 C:\Users\ounim\Desktop\Nouveau dossier (4)\EYEnergy-main\EY.Energy.API\obj\Debug\net6.0\EY.Energy.API.pdb
 C:\Users\ounim\Desktop\Nouveau dossier (4)\EYEnergy-main\EY.Energy.API\obj\Debug\net6.0\EY.Energy.API.genruntimeconfig.cache
 C:\Users\ounim\Desktop\Nouveau dossier (4)\EYEnergy-main\EY.Energy.API\obj\Debug\net6.0\ref\EY.Energy.API.dll
+C:\Users\ounim\Desktop\Nouveau dossier (4)\EYEnergy-main\EY.Energy.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ounim\Desktop\Nouveau dossier (4)\EYEnergy-main\EY.Energy.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ounim\Desktop\Nouveau dossier (4)\EYEnergy-main\EY.Energy.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ounim\Desktop\Nouveau dossier (4)\EYEnergy-main\EY.Energy.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ounim\Desktop\Nouveau dossier (4)\EYEnergy-main\EY.Energy.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ounim\Desktop\Nouveau dossier (4)\EYEnergy-main\EY.Energy.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ounim\Desktop\Nouveau dossier (4)\EYEnergy-main\EY.Energy.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ounim\Desktop\Nouveau dossier (4)\EYEnergy-main\EY.Energy.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
